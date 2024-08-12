@@ -11,7 +11,7 @@ const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
 
-  //to handle click outside of sidebar on mobile
+  // Handle click outside of sidebar on mobile
   useOutsideAlerter({
     menuRef,
     setMenuOpened,
@@ -20,6 +20,11 @@ const Header = () => {
   // Scroll to top function
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  // Function to close the menu when an item is clicked
+  const handleMenuItemClick = () => {
+    setMenuOpened(false);
   };
 
   return (
@@ -40,10 +45,10 @@ const Header = () => {
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li><a href="#experties">About me</a></li>
-          <li><a href="#people">Skills</a></li>
-          <li><a href="#portfolio">Projects</a></li>
-          <li><a href="#work">Experience</a></li>
+          <li><a href="#experties" onClick={handleMenuItemClick}>About me</a></li>
+          <li><a href="#people" onClick={handleMenuItemClick}>Skills</a></li>
+          <li><a href="#portfolio" onClick={handleMenuItemClick}>Projects</a></li>
+          <li><a href="#work" onClick={handleMenuItemClick}>Experience</a></li>
         </ul>
 
         {/* for medium and small screens */}
