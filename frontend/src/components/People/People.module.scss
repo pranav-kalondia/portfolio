@@ -1,0 +1,49 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+  .container {
+    .heading {
+      flex-direction: column;
+
+      p {
+        line-height: 30px;
+      }
+    }
+
+    .skillsGrid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin-top:5rem;
+
+      img {
+        width:10vw; /* Adjust the size as needed */
+       
+        object-fit: cover;
+      }
+
+      @media (max-width: $lg) {
+        grid-template-columns: repeat(3, 1fr);
+
+        img {
+          width: 60px; /* Adjust the size as needed */
+          
+        }
+      }
+
+      @media (max-width: $md) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (max-width: $sm) {
+        grid-template-columns: repeat(2, 1fr);
+
+        img {
+          width: 20vw; /* Adjust the size as needed */
+         
+        }
+      }
+    }
+  }
+}

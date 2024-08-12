@@ -1,0 +1,125 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+    overflow: hidden;
+
+    img {
+        padding-left: 30px;
+        width: 31vw;
+        padding-bottom: 0px;
+    }
+
+    .container {
+        position: relative;
+        z-index: 1;
+
+        .upperElements {
+            @media (max-width: $sm) {
+                justify-content: center;
+                text-align: center;
+                gap: 1px;
+            }
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .lowerElements {
+            @media (max-width: $sm), (max-width: $md) {
+                margin-top: 4rem;
+                gap: 2rem;
+                justify-content: center;
+            }
+            margin-top: 12rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .experience {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                >:nth-child(2) {
+                    line-height: 25px;
+                }
+            }
+
+            .certificate {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    margin-bottom: 1rem;
+                    width: 3.5rem;
+                }
+            }
+        }
+
+        .person {
+            @media (max-width: $sm ), (max-width: $md) {
+                position: relative;
+                left: 0;
+                background-size: 20rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-position: bottom;
+            }
+            position: absolute;
+            bottom: -2rem;
+            margin: auto;
+            background-image: url("../splash.png");
+            background-repeat: no-repeat;
+            background-size: 28rem;
+            left: 35%;
+
+            img {
+                @media (max-width: $sm ) {
+                    width: 23rem;
+                }
+                margin-bottom: -5px;
+            }
+        }
+
+        .socialLinks {
+            @media (max-width: $sm ) {
+                position: relative;
+                top: 0%; // Reset top positioning for small screens
+                left: auto; // Reset left positioning for small screens
+                display: flex;
+                justify-content: center;
+                gap: 1.5rem; // Adjust gap for small screens
+                margin-top: 2rem; // Add margin-top to ensure spacing from other content
+            }
+
+            position: absolute;
+            top: 50%;
+            left: 0;
+            display: flex;
+            align-items: center;
+            gap: 2rem; // Increase gap between icons
+            color: black; // Ensure icons are black
+            
+            // Style for icons
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                color: black; // Ensure icon color is black
+
+                svg {
+                    color: black; // Ensure SVG icons are black
+                    transition: color 0.3s ease; // Optional: Add a transition for hover effects
+                }
+
+                &:hover svg {
+                    color: gray; // Optional: Change color on hover
+                }
+            }
+        }
+    }
+}

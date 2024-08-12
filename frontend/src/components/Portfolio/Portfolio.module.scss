@@ -1,0 +1,58 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+
+    .heading {
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+
+      > :nth-child(2) {
+        text-decoration: underline;
+        color: orange;
+        cursor: pointer;
+      }
+    }
+
+    .showCase {
+      width: 100%;
+      gap: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center items horizontally */
+
+      a {
+        display: block;
+        border-radius: 20px;
+        box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.13);
+        cursor: pointer;
+        overflow: hidden; /* Ensure that the border radius applies correctly */
+        width: 100%; /* Default width for small screens */
+        max-width: 25rem; /* Ensure the anchor tag doesn’t exceed this width */
+        height: auto; /* Ensure the height adjusts based on the content */
+        
+        @media (min-width: 200px) {
+          width: calc(100% - 1.5rem); /* Two images per row with gap */
+        }
+        
+        @media (min-width: 900px) {
+          width: calc(33.33% - 1.5rem); /* Three images per row with gap */
+        }
+      }
+
+      a img {
+        width: 100%; /* Ensure images fill the anchor tag's width */
+        height: auto;
+        border-radius: inherit; /* Inherit border radius from anchor tag */
+        box-shadow: inherit; /* Inherit box shadow from anchor tag */
+      }
+    }
+  }
+}

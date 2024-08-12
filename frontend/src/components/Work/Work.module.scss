@@ -1,0 +1,93 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+    .container {
+        flex-direction: column;
+        gap: 2rem;
+
+        .experiences {
+            width: 100%;
+            flex-direction: column;
+            gap: 1.4rem;
+            position: relative;
+
+            .exp {
+                width: 100%;
+                justify-content: space-between;
+                line-height: 40px;
+                align-items: flex-start;
+
+                > div {
+                    flex: 1;
+                }
+
+                .role {
+                    margin-left: 1rem;
+
+                    // Reduce line height between role and detail
+                    + .detail {
+                        line-height: 1.2rem; // Adjust this value as needed
+                    }
+                }
+
+                .place, .tenure, .role, .detail {
+                    font-size: 1rem; // Default font size
+
+                    // Responsive adjustments
+                    @media (max-width: 768px) {
+                        font-size: 0.875rem; // Smaller font size for tablet screens
+                    }
+
+                    @media (max-width: 480px) {
+                        font-size: 0.75rem; // Even smaller font size for very small screens
+                    }
+                }
+            }
+
+            .progressbar {
+                position: absolute;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 1.4rem;
+                left: 45%;
+
+                .line {
+                    position: absolute;
+                    height: 92%;
+                    width: 2px;
+                    background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
+                    background-position: right;
+                    background-size: 2px 30px;
+                    background-repeat: repeat-y;
+                    left: 45%;
+                    z-index: 1;
+                    border-radius: 5px;
+
+                    // Responsive adjustments
+                    @media (max-width: 768px) {
+                        display: none;
+                    }
+                }
+
+                > div {
+                    flex: 1;
+                    padding-top: .8rem;
+                    z-index: 2;
+
+                    .circle {
+                        border-radius: 50%;
+                        background: black;
+                        width: 1.2rem;
+                        height: 1.2rem;
+
+                        // Responsive adjustments
+                        @media (max-width: 768px) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
