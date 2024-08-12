@@ -26,6 +26,7 @@ const Hero = () => {
             Front-end Web Developer
           </motion.span>
         </div>
+
         <div className={css.socialLinks}>
           <a href="https://github.com/pranav-kalondia" target="_blank" rel="noopener noreferrer">
             <FaGithub color="black" size={30} />
@@ -40,6 +41,7 @@ const Hero = () => {
             <FaInstagram color="black" size={30} />
           </a>
         </div>
+
         <motion.div
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
@@ -56,10 +58,11 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
-            <img src="./certificate.png" alt="Certified Professional UI/UX Designer" />
-            <span>CERTIFIED PROFESSIONAL</span>
-            <span>UI/UX DESIGNER</span>
+          <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.availableButton}>
+            <button>
+              <div className={css.blinkingLight}></div> {/* Add blinking light inside the button */}
+              <div className={css.buttonText}>Available for Work</div>
+            </button>
           </motion.div>
         </div>
       </motion.div>
