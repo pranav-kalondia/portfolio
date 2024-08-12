@@ -36,7 +36,7 @@ const Header = () => {
           <li><a href="#experties">About me</a></li>
           <li><a href="#people">Skills</a></li>
           <li><a href="#portfolio">Projects</a></li>
-          <li><a href="#Work">Experience</a></li>
+          <li><a href="#work">Experience</a></li>
           
         </ul>
 
