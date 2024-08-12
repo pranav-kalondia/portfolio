@@ -1,5 +1,8 @@
 @import './../../styles/contants.scss';
-
+.name {
+    /* Existing styles */
+    cursor: pointer;
+  }
 .wrapper {
     position: relative;
     z-index: 99;
