@@ -17,6 +17,11 @@ const Header = () => {
     setMenuOpened,
   });
 
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <motion.div
       variants={headerVariants}
@@ -27,7 +32,9 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Pranav Kalondia</div>
+        <div className={css.name} onClick={scrollToTop}>
+          Pranav Kalondia
+        </div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
@@ -37,7 +44,6 @@ const Header = () => {
           <li><a href="#people">Skills</a></li>
           <li><a href="#portfolio">Projects</a></li>
           <li><a href="#work">Experience</a></li>
-          
         </ul>
 
         {/* for medium and small screens */}
