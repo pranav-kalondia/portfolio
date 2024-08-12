@@ -1,5 +1,73 @@
 @import '../../styles/contants.scss';
 
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.availableButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; // To position the blinking light correctly
+
+    button {
+        position: relative; // To position the blinking light inside the button
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+        padding: 10px 20px;
+        background-color: rgb(255, 255, 255); // Replace with your primary color variable
+        border: none;
+        border-radius: 50px; // Makes the button rounded
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+
+        .blinkingLight {
+            position: absolute;
+            left: 10px; // Adjust this value to position the light correctly inside the button
+            top: 50%;
+            transform: translateY(-50%);
+            width: 15px; // Size of the circular light
+            height: 15px;
+            background-color: #FFA500; // Replace with your desired color
+            border-radius: 50%;
+            animation: blink 1s infinite; // Apply the blinking animation
+        }
+
+        svg {
+            margin-right: 8px; // Space between icon and text
+            font-size: 1.2rem;
+        }
+
+        &:hover {
+            background-color: darken(white, 10%); // Darkens the button on hover
+            transform: scale(1.05); // Slightly enlarges the button on hover
+        }
+
+        &:active {
+            transform: scale(0.95); // Slightly reduces the button size when active (clicked)
+        }
+
+        .buttonText {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+
 .wrapper {
     overflow: hidden;
 
@@ -30,6 +98,40 @@
                 margin-top: 4rem;
                 gap: 2rem;
                 justify-content: center;
+                .availableButton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px 20px;
+                    background-color: white; // Replace with your primary color variable
+                    border: none;
+                    border-radius: 50px; // Makes the button rounded
+                    color: black;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease, transform 0.3s ease;
+
+                    svg {
+                        margin-right: 8px; // Space between icon and text
+                        font-size: 1.2rem;
+                    }
+
+                    &:hover {
+                        background-color: darken(white, 10%); // Darkens the button on hover
+                        transform: scale(1.05); // Slightly enlarges the button on hover
+                    }
+
+                    &:active {
+                        transform: scale(0.95); // Slightly reduces the button size when active (clicked)
+                    }
+                }
+            }
             }
             margin-top: 12rem;
             display: flex;
