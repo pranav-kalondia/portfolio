@@ -85,7 +85,7 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://pranav-kalondia.github.io/squadsync/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.thesquadsync.com/#" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showCase9.png"
