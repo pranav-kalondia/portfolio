@@ -161,7 +161,7 @@
         }
 
         .person {
-            @media (max-width: $sm ), (max-width: $md) {
+            @media  (max-width: $md) {
                 position: relative;
                 left: 0;
                 background-size: 20rem;
@@ -177,12 +177,14 @@
             background-repeat: no-repeat;
             background-size: 28rem;
             left: 35%;
+          
 
             img {
                 @media (max-width: $sm ) {
-                    width: 23rem;
+                    width: 25rem;
+                    margin-bottom: 0px;
                 }
-                margin-bottom: -5px;
+               margin-bottom: -5px;
             }
         }
 
