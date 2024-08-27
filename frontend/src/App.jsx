@@ -15,9 +15,10 @@ const App = () => {
       <Header/>
       <Hero/>
       <Experties/>
+      <Work/>
       <People/>    
       <Portfolio/>
-      <Work/>
+    
      
       <Footer/>
     </div>
