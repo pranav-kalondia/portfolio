@@ -46,9 +46,9 @@ const Header = () => {
           style={getMenuStyles(menuOpened)}
         >
           <li><a href="#experties" onClick={handleMenuItemClick}>About me</a></li>
+          <li><a href="#work" onClick={handleMenuItemClick}>Experience</a></li>
           <li><a href="#people" onClick={handleMenuItemClick}>Skills</a></li>
           <li><a href="#portfolio" onClick={handleMenuItemClick}>Projects</a></li>
-          <li><a href="#work" onClick={handleMenuItemClick}>Experience</a></li>
         </ul>
 
         {/* for medium and small screens */}
