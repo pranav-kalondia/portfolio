@@ -24,7 +24,7 @@ export const projectExperience = [
 
 export const WhatDoIHelp = [
   "Hello! I'm Pranav Kalondia, a passionate and creative Front-End Web Developer and UI/UX Designer. I'm dedicated to crafting digital experiences that seamlessly blend functionality with aesthetics. With a deep love for design principles and a keen eye for detail, I bring websites and applications to life, ensuring they not only look visually appealing but also provide exceptional user experiences.",
-  "am currently a fourth-year undergraduate pursuing a Bachelor's in Technology in Information Technology from Maharaja Agrasen Institute of Technology in Delhi, affiliated with Guru Gobind Singh Indraprastha University. My academic journey is filled with opportunities to hone my skills and apply my knowledge in the dynamic field of technology.",
+  "I am currently a fourth-year undergraduate pursuing a Bachelor's in Technology in Information Technology from Maharaja Agrasen Institute of Technology in Delhi, affiliated with Guru Gobind Singh Indraprastha University. My academic journey is filled with opportunities to hone my skills and apply my knowledge in the dynamic field of technology.",
 ];
 
 export const workExp = [
