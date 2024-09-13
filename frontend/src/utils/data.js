@@ -24,31 +24,32 @@ export const projectExperience = [
 
 export const WhatDoIHelp = [
   "Hello! I'm Pranav Kalondia, a passionate and creative Front-End Web Developer and UI/UX Designer. I'm dedicated to crafting digital experiences that seamlessly blend functionality with aesthetics. With a deep love for design principles and a keen eye for detail, I bring websites and applications to life, ensuring they not only look visually appealing but also provide exceptional user experiences.",
-  "I am currently a fourth-year undergraduate pursuing a Bachelor's in Technology in Information Technology from Maharaja Agrasen Institute of Technology in Delhi, affiliated with Guru Gobind Singh Indraprastha University. My academic journey is filled with opportunities to hone my skills and apply my knowledge in the dynamic field of technology.",
+  "am currently a fourth-year undergraduate pursuing a Bachelor's in Technology in Information Technology from Maharaja Agrasen Institute of Technology in Delhi, affiliated with Guru Gobind Singh Indraprastha University. My academic journey is filled with opportunities to hone my skills and apply my knowledge in the dynamic field of technology.",
 ];
 
 export const workExp = [
   {
-    place: "Hanuinnotech",
-    tenure: "Jan 2023 - July 2023",
-    role: "Ui/Ux Designer & Developer intern",
-    detail:
-      "As a UI/UX designer and developer intern at HanuInnoTech, I created user-friendly websites and apps, translating designs into responsive, functional frontend code. ",
-  },
-  {
-    place: "Serverwale",
+    place: "Serverwale, Delhi",
     tenure: "Oct 2023 - Dec 2023",
     role: "Ui/Ux designer intern",
     detail:
       "As a UI/UX designer intern at ServerWale, I designed their e-commerce website, focusing on creating user-friendly, visually appealing interfaces.",
   },
+  {
+    place: "Hanuinnotech, Hyderabad",
+    tenure: "Jan 2023 - July 2023",
+    role: "Ui/Ux Designer & Developer intern",
+    detail:
+      "As a UI/UX designer and developer intern at HanuInnoTech, I created user-friendly websites and apps, translating designs into responsive, functional frontend code. ",
+  },
   
   {
-    place: "Wallgrip india",
-    tenure: "Aug 2023 - Oct 2023",
-    role: "Ui/Ux designer intern",
+    place: "JA Assure, Malaysia",
+    tenure: "Aug 2024 - Present",
+    role: "User Experience Designer intern",
     detail:
-      "during my tenure at WallGrip india, I had the privilege of serving as the primary architect behind the design of their website. ",
+    
+"As a UX Designer at JA Assure, I assist in UI/UX design, development, collaborate with the team, conduct research, and create wireframes.",
   },
 ];
 
