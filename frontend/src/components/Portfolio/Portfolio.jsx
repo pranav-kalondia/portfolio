@@ -50,6 +50,13 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
+          <a href="https://www.figma.com/proto/rMiMn9UysPeRYBqs30MbbH/Nebula?page-id=0%3A1&type=design&node-id=54-34&viewport=-1710%2C252%2C0.47&t=CTpJIPHDNAlJ7vab-1&scaling=scale-down&starting-point-node-id=54%3A34" target="_blank" rel="noopener noreferrer">
+            <motion.img
+              variants={fadeIn("up", "tween", 0.3, 0.6)}
+              src="/showcase11.png"
+              alt="project 3"
+            />
+          </a>
           <a href="https://www.figma.com/proto/HoJ3aEokk1xCt6iylgS8xF/architect-portfolio?page-id=0%3A1&node-id=64-372&viewport=193%2C260%2C0.06&t=LhWRh1zYwwWMkQvs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
@@ -85,7 +92,7 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://www.thesquadsync.com/#" target="_blank" rel="noopener noreferrer">
+          <a href="https://pranav-kalondia.github.io/squadsync/" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showCase9.png"
