@@ -50,7 +50,7 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://www.figma.com/proto/rMiMn9UysPeRYBqs30MbbH/Nebula?page-id=0%3A1&type=design&node-id=54-34&viewport=-1710%2C252%2C0.47&t=CTpJIPHDNAlJ7vab-1&scaling=scale-down&starting-point-node-id=54%3A34" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.figma.com/proto/rsF2EuClhim8Vfxb2JO8Zi/Breatho?page-id=0%3A1&node-id=54-69&node-type=frame&viewport=-1238%2C363%2C0.1&t=xID06YEK22o3QIn9-1&scaling=scale-down&content-scaling=fixed" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showcase11.png"
