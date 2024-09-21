@@ -37,7 +37,7 @@ export const workExp = [
   },
   {
     place: "Hanuinnotech, Hyderabad",
-    tenure: "Jan 2023 - July 2023",
+    tenure: "Jan 2024 - July 2024",
     role: "Ui/Ux Designer & Developer intern",
     detail:
       "As a UI/UX designer and developer intern at HanuInnoTech, I created user-friendly websites and apps, translating designs into responsive, functional frontend code. ",
