@@ -85,7 +85,7 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://food-del-inky.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://pranav-tomato.vercel.app" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showCase8.png"
