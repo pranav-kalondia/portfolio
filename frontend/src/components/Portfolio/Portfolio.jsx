@@ -36,7 +36,7 @@ const Portfolio = () => {
               alt="project 1"
             />
           </a>
-          <a href="https://www.figma.com/proto/TTfotkc5L0WERg26ExJGw8/vitalease?page-id=0%3A1&node-id=20-61&viewport=422%2C563%2C0.13&t=dNSZ12NuBo0OmTUp-1&scaling=min-zoom&content-scaling=fixed" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.behance.net/gallery/210072645/Vitalease-Elderly-Care-App-Case-Study">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showCase2.png"
@@ -50,14 +50,14 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://www.figma.com/proto/rsF2EuClhim8Vfxb2JO8Zi/Breatho?page-id=0%3A1&node-id=54-69&node-type=frame&viewport=-1238%2C363%2C0.1&t=xID06YEK22o3QIn9-1&scaling=scale-down&content-scaling=fixed" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.behance.net/gallery/209496465/Breatho-Landing-page">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showcase11.png"
               alt="project 3"
             />
           </a>
-          <a href="https://www.figma.com/proto/HoJ3aEokk1xCt6iylgS8xF/architect-portfolio?page-id=0%3A1&node-id=64-372&viewport=193%2C260%2C0.06&t=LhWRh1zYwwWMkQvs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.behance.net/gallery/209539857/Intelligence-Building-Infrastructure-landing-page">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showCase4.png"
@@ -71,7 +71,7 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://www.figma.com/proto/t0qIu5CDtKUJ4MhQS1yGUV/server-wale?page-id=0%3A1&node-id=1-2&viewport=691%2C359%2C0.03&t=KagP8r8ZEoeDV8AH-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.behance.net/gallery/209540701/Serverwale-E-commerce-website-design">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showCase6.png"
@@ -100,7 +100,7 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://www.thesquadsync.com/#" target="_blank" rel="noopener noreferrer">
+          <a href="https://pranav-kalondia.github.io/squadsync/" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="/showCase9.png"
