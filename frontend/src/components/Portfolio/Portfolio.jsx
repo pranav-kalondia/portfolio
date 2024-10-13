@@ -29,13 +29,6 @@ const Portfolio = () => {
         </motion.div>
 
         <div className={`flexCenter ${css.showCase}`}>
-          <a href="https://www.figma.com/proto/oIoWF4yVLDGqhCy2WM231Q/Squad-sync-web-app?page-id=0%3A1&node-id=602-306&starting-point-node-id=602%3A306&t=Guq74yttRx6mkOmv-1" target="_blank" rel="noopener noreferrer">
-            <motion.img
-              variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showCase1.png"
-              alt="project 1"
-            />
-          </a>
           <a href="https://www.behance.net/gallery/210072645/Vitalease-Elderly-Care-App-Case-Study">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
@@ -43,6 +36,14 @@ const Portfolio = () => {
               alt="project 2"
             />
           </a>
+          <a href="https://www.figma.com/proto/oIoWF4yVLDGqhCy2WM231Q/Squad-sync-web-app?page-id=0%3A1&node-id=602-306&starting-point-node-id=602%3A306&t=Guq74yttRx6mkOmv-1" target="_blank" rel="noopener noreferrer">
+            <motion.img
+              variants={fadeIn("up", "tween", 0.3, 0.6)}
+              src="/showCase1.png"
+              alt="project 1"
+            />
+          </a>
+          
           <a href="https://www.figma.com/proto/rMiMn9UysPeRYBqs30MbbH/Nebula?page-id=0%3A1&type=design&node-id=54-34&viewport=-1710%2C252%2C0.47&t=CTpJIPHDNAlJ7vab-1&scaling=scale-down&starting-point-node-id=54%3A34" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
