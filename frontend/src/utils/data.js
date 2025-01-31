@@ -28,16 +28,10 @@ export const WhatDoIHelp = [
 ];
 
 export const workExp = [
-  {
-    place: "Serverwale, Delhi",
-    tenure: "Oct 2023 - Dec 2023 (Hybrid)" ,
-    role: "Ui/Ux designer intern",
-    detail:
-      "As a UI/UX designer intern at ServerWale, I designed their e-commerce website, focusing on creating user-friendly, visually appealing interfaces.",
-  },
+  
   {
     place: "Hanuinnotech, Hyderabad",
-    tenure: "Jan 2024 - July 2024 (Remote)",
+    tenure: "Jan 2023 - July 2023",
     role: "Ui/Ux Designer & Developer intern",
     detail:
       "As a UI/UX designer and developer intern at HanuInnoTech, I created user-friendly websites and apps, translating designs into responsive, functional frontend code. ",
@@ -45,11 +39,18 @@ export const workExp = [
   
   {
     place: "JA Assure, Malaysia",
-    tenure: "Aug 2024 - Present (Remote)",
+    tenure: "Aug 2024 - Jan 2025",
     role: "User Experience Designer intern",
     detail:
     
 "As a UX Designer at JA Assure, I assist in UI/UX design, development, collaborate with the team, conduct research, and create wireframes.",
+  },
+  {
+    place: "Open Weaver , Chennai",
+    tenure: "Nov 2024 - Present",
+    role: "Ui/Ux developer intern",
+    detail:
+      "Designing and developing user-friendly websites, collaborating with the team to ensure consistency, and using user feedback to improve designs.",
   },
 ];
 
