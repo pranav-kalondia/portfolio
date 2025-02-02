@@ -29,6 +29,23 @@ const Portfolio = () => {
         </motion.div>
 
         <div className={`flexCenter ${css.showCase}`}>
+
+        <a href="https://www.behance.net/gallery/218283637/Foodo-delivery-app-case-study" target="_blank" rel="noopener noreferrer">
+            <motion.img
+              variants={fadeIn("up", "tween", 0.3, 0.6)}
+              src="/food.png"
+              alt="project 1"
+            />
+          </a>
+
+          <a href="https://www.behance.net/gallery/218317189/FInance-app-Case-study" target="_blank" rel="noopener noreferrer">
+            <motion.img
+              variants={fadeIn("up", "tween", 0.3, 0.6)}
+              src="/financew.jpg"
+              alt="project 1"
+            />
+          </a>
+
           <a href="https://www.behance.net/gallery/210072645/Vitalease-Elderly-Care-App-Case-Study">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
@@ -36,6 +53,8 @@ const Portfolio = () => {
               alt="project 2"
             />
           </a>
+
+
           <a href="https://www.figma.com/proto/oIoWF4yVLDGqhCy2WM231Q/Squad-sync-web-app?page-id=0%3A1&node-id=602-306&starting-point-node-id=602%3A306&t=Guq74yttRx6mkOmv-1" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
@@ -43,7 +62,7 @@ const Portfolio = () => {
               alt="project 1"
             />
           </a>
-          
+         
           <a href="https://www.figma.com/proto/rMiMn9UysPeRYBqs30MbbH/Nebula?page-id=0%3A1&type=design&node-id=54-34&viewport=-1710%2C252%2C0.47&t=CTpJIPHDNAlJ7vab-1&scaling=scale-down&starting-point-node-id=54%3A34" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
@@ -79,14 +98,7 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://www.figma.com/proto/zvyOVujV0tE3lxJFTnIuRN/wallgrip-polymer?page-id=0%3A1&node-id=1-2&viewport=80%2C324%2C0.03&t=D0N6uizK8ftg1BNv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=257%3A3" target="_blank" rel="noopener noreferrer">
-            <motion.img
-              variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showCase7.png"
-              alt="project 3"
-            />
-            
-          </a>
+         
           <a href="https://pranav-spacex.vercel.app//" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
@@ -108,13 +120,7 @@ const Portfolio = () => {
               alt="project 3"
             />
           </a>
-          <a href="https://pranav-kalondia.github.io/studiowebsite.github.io/" target="_blank" rel="noopener noreferrer">
-            <motion.img
-              variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showCase10.png"
-              alt="project 3"
-            />
-          </a>
+         
         </div>
       </div>
     </motion.section>
