@@ -46,6 +46,17 @@ const Portfolio = () => {
             />
           </a>
 
+          <a href="https://www.behance.net/gallery/220879179/TARS-Ai-Architecture-Protocol-landing-page">
+            <motion.img
+              variants={fadeIn("up", "tween", 0.3, 0.6)}
+              src="/tesa.png"
+              alt="project 2"
+            />
+          </a>
+
+
+
+
           <a href="https://www.behance.net/gallery/210072645/Vitalease-Elderly-Care-App-Case-Study">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
@@ -54,50 +65,15 @@ const Portfolio = () => {
             />
           </a>
 
-
-          <a href="https://www.figma.com/proto/oIoWF4yVLDGqhCy2WM231Q/Squad-sync-web-app?page-id=0%3A1&node-id=602-306&starting-point-node-id=602%3A306&t=Guq74yttRx6mkOmv-1" target="_blank" rel="noopener noreferrer">
+         
+          <a href="https://www.behance.net/gallery/220885249/Wav-watch-Landing-page" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showCase1.png"
+              src="/thumbnail.png"
               alt="project 1"
             />
           </a>
          
-          <a href="https://www.figma.com/proto/rMiMn9UysPeRYBqs30MbbH/Nebula?page-id=0%3A1&type=design&node-id=54-34&viewport=-1710%2C252%2C0.47&t=CTpJIPHDNAlJ7vab-1&scaling=scale-down&starting-point-node-id=54%3A34" target="_blank" rel="noopener noreferrer">
-            <motion.img
-              variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showCase3.png"
-              alt="project 3"
-            />
-          </a>
-          <a href="https://www.behance.net/gallery/209496465/Breatho-Landing-page">
-            <motion.img
-              variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showcase11.png"
-              alt="project 3"
-            />
-          </a>
-          <a href="https://www.behance.net/gallery/209539857/Intelligence-Building-Infrastructure-landing-page">
-            <motion.img
-              variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showCase4.png"
-              alt="project 3"
-            />
-          </a>
-          <a href="https://www.figma.com/proto/ALYj7au4i4DthwkYS1N3Ju/iq-test-website?page-id=0%3A1&node-id=79-256&viewport=73%2C339%2C0.02&t=VISRun3Y2zPdpQdh-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=79%3A256" target="_blank" rel="noopener noreferrer">
-            <motion.img
-              variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showCase5.png"
-              alt="project 3"
-            />
-          </a>
-          <a href="https://www.behance.net/gallery/209540701/Serverwale-E-commerce-website-design">
-            <motion.img
-              variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/showCase6.png"
-              alt="project 3"
-            />
-          </a>
          
           <a href="https://pranav-spacex.vercel.app//" target="_blank" rel="noopener noreferrer">
             <motion.img
