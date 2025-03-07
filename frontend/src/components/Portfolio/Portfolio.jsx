@@ -30,11 +30,11 @@ const Portfolio = () => {
 
         <div className={`flexCenter ${css.showCase}`}>
 
-        <a href="https://www.behance.net/gallery/218283637/Foodo-delivery-app-case-study" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.behance.net/gallery/220879179/TARS-Ai-Architecture-Protocol-landing-page">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/food.png"
-              alt="project 1"
+              src="/tesa.png"
+              alt="project 2"
             />
           </a>
 
@@ -46,13 +46,18 @@ const Portfolio = () => {
             />
           </a>
 
-          <a href="https://www.behance.net/gallery/220879179/TARS-Ai-Architecture-Protocol-landing-page">
+
+
+        <a href="https://www.behance.net/gallery/218283637/Foodo-delivery-app-case-study" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
-              src="/tesa.png"
-              alt="project 2"
+              src="/food.png"
+              alt="project 1"
             />
           </a>
+
+         
+         
 
 
 
