@@ -18,7 +18,7 @@ const Hero = () => {
           <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
             Hey There,
             <br />
-            I'm Pranav Kalondia.
+            I'm Pranav.
           </motion.span>
           <motion.span className="secondaryText" variants={fadeIn("left", "tween", 0.4, 1)}>
             UI/UX Designer &
